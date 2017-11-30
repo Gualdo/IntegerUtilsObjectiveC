@@ -15,6 +15,7 @@
 		A34D0F131FD03E2500DFAC49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34D0F121FD03E2500DFAC49 /* main.m */; };
 		A34D0F1D1FD03E2500DFAC49 /* Integer_UtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A34D0F1C1FD03E2500DFAC49 /* Integer_UtilsTests.m */; };
 		A34D0F281FD03E2500DFAC49 /* Integer_UtilsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A34D0F271FD03E2500DFAC49 /* Integer_UtilsUITests.m */; };
+		A34D0F371FD0401500DFAC49 /* IntegerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A34D0F361FD0401500DFAC49 /* IntegerUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A34D0F231FD03E2500DFAC49 /* Integer UtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Integer UtilsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34D0F271FD03E2500DFAC49 /* Integer_UtilsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Integer_UtilsUITests.m; sourceTree = "<group>"; };
 		A34D0F291FD03E2500DFAC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34D0F351FD0401500DFAC49 /* IntegerUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegerUtils.h; sourceTree = "<group>"; };
+		A34D0F361FD0401500DFAC49 /* IntegerUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegerUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				A34D0F031FD03E2500DFAC49 /* AppDelegate.h */,
 				A34D0F041FD03E2500DFAC49 /* AppDelegate.m */,
+				A34D0F351FD0401500DFAC49 /* IntegerUtils.h */,
+				A34D0F361FD0401500DFAC49 /* IntegerUtils.m */,
 				A34D0F061FD03E2500DFAC49 /* ViewController.h */,
 				A34D0F071FD03E2500DFAC49 /* ViewController.m */,
 				A34D0F091FD03E2500DFAC49 /* Main.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34D0F371FD0401500DFAC49 /* IntegerUtils.m in Sources */,
 				A34D0F081FD03E2500DFAC49 /* ViewController.m in Sources */,
 				A34D0F131FD03E2500DFAC49 /* main.m in Sources */,
 				A34D0F051FD03E2500DFAC49 /* AppDelegate.m in Sources */,
